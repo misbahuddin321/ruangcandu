@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Candu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg shadow navbar-light navbar-kita fixed-top">
+            <div class="container-fluid px-5 d-flex justify-content-around">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-coffee fc-utama"></i>
+                    <span class="logo-text fc-utama ms-2">Ruang Candu</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link lobster-font fs-4 mx-2" href="#metode">Metode</a>
+                        <a class="nav-link lobster-font fs-4 mx-2" href="#menu">Menu</a>
+                        <a class="nav-link lobster-font fs-4 mx-2" href="#galeri">Galeri</a>
+                        <a class="nav-link lobster-font fs-4 mx-2" href="#ulasan">Ulasan</a>
+                        <a class="nav-link lobster-font fs-4 ms-3 my-auto contact-btn d-flex align-items-center justify-content-center rounded-pill" href="#kontak">Kontak</a>
+                    </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Banner -->
+    <section id="banner" class="">
+        <div class="text-container d-md-4">
+            <h1 class="fw-bold parisianne-font text-white banner-title" style="font-size: 10vw;">Freshly Brewed Coffee</h1>
+            <p class="fw-normal text-white cabin-font fs-5" style="width: 90%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quae sint atque possimus asperiores quo excepturi? Architecto, est beatae! Reiciendis nulla velit iste molestias aut.</p> 
+             <button type="button" class="button-order" style="transition: 50ms round;">Order Here!</button>
+           </div>
+         <div class="img-container">
+             <img src="assets/img/img-banner.png" class="img-banner" alt="" style="max-width:100%;height:auto;">
+         </div>
+    </section>
+
+    <!-- Metode -->
+    <section id="metode" class="shadow">
+        <div class="container-xl mt-5 mx-auto">
+            <div class="row justify-content-around align-items-center">
+                <h2 class="text-center fw-bold parisianne-font fc-utama mb-0" id="tes">Metode</h2>
+                <h3 class="text-center balsamiq-font fc-utama fw-bold fs-2 mb-1" style="letter-spacing: 5px;">Brewing Coffee</h3>
+                <hr style="width: 400px; height: 3px; background-color: #970c0c; border-radius: 20px;">
+                <div class="row row-cols-lg-5 g-1">
+                    <div class="col-sm-4">
+                        <a data-bs-toggle="modal" data-bs-target="#v60">
+                            <div class="card metode-card text-center border-0">
+                                <div class="card-body" >
+                                    <div class="img-bg d-flex justify-content-center align-items-center rounded-pill">
+                                        <img src="./assets/img/1.png" alt="" class="card-img">
+                                    </div>
+                                    <h5 class="card-title mt-3 mb-0 lobster-font fw-bold">Chemex</h5>
+                                    <p class="card-text info-desc">
+                                        Chemex Adalah labu kaca yang dirancang dengan indah dan elegan yang ditemukan pada tahun 1941 oleh Dr.Peter Schlumnohm
+                                        filter ini menggunakan kertas khusus chemex yang 20-30% lebih berat dari filter lainya.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a data-bs-toggle="modal" data-bs-target="#v60">
+                            <div class="card metode-card text-center border-0">
+                                <div class="card-body">
+                                    <div class="img-bg d-flex justify-content-center align-items-center rounded-pill">
+                                        <img src="./assets/img/2.png" alt="" class="card-img">
+                                    </div>
+                                    <h5 class="card-title mt-3 mb-0 lobster-font fw-bold">V60</h5>
+                                    <p class="card-text info-desc">
+                                        Teknik seduh kopi V60 asal mulanya karena terciptanya sebuah alat seduh atau yang populer dengan sebutan dripper pada tahun 2004
+                                        .pencipta dari alat tersebut merupakan perusahaan asal jepang ang bernama hario. Nama V60 sendiri dipilih karena bwntuknya 
+                                        menyerupai huruf "V" dengan sudut 60 Derajat.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a data-bs-toggle="modal" data-bs-target="#frenchPress">
+                            <div class="card metode-card text-center border-0">
+                                <div class="card-body">
+                                    <div class="img-bg d-flex justify-content-center align-items-center rounded-pill">
+                                        <img src="./assets/img/3.png" alt="" class="card-img">
+                                    </div>
+                                    <h5 class="card-title mt-3 mb-0 lobster-font fw-bold">French Press</h5>
+                                    <p class="card-text info-desc">
+                                        Metode French Press, ditemukan pasa yahun 1929, secara luas dianggap sebagi metode terbaik dan termudah untuk menyeduh kopi yang unggul dan konsisten.Ini bisa dibilang mengestrak rasa 
+                                        yang unggul dan berkualitas.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a data-bs-toggle="modal" data-bs-target="#mokapot">
+                            <div class="card metode-card text-center border-0">
+                                <div class="card-body">
+                                    <div class="img-bg d-flex justify-content-center align-items-center rounded-pill">
+                                        <img src="./assets/img/4.png" alt="" class="card-img">
+                                    </div>
+                                    <h5 class="card-title mt-3 mb-0 lobster-font fw-bold">Mokapot</h5>
+                                    <p class="card-text info-desc">
+                                        Awalnya dipatenkan pada tahun 1933 oleh Alfonso Bialetti, 
+                                        pembuatnya kopi gaya stovetop menggunakan tekanan uap dari air matang di bagian bawah untuk melewati bubuk kopi di ruang tengah panci
+                                        Kopi yang diseduh kemudian diletakan diruang yang lebih tinggi.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a data-bs-toggle="modal" data-bs-target="#aeropress">
+                            <div class="card metode-card text-center border-0">
+                                <div class="card-body">
+                                    <div class="img-bg d-flex justify-content-center align-items-center rounded-pill">
+                                        <img src="./assets/img/5.png" alt="" class="card-img">
+                                    </div>
+                                    <h5 class="card-title mt-3 mb-0 lobster-font fw-bold">Aeropress</h5>
+                                    <p class="card-text info-desc">
+                                        Relatif baru, pembuat Aerobie Frisbee (Alan Adler)
+                                        menciptakan dan meluncrukan AeroPress pada tahun 2005. AeroPress
+                                        Terbuat dari plastik dan tersedian dalam 3 bagian.Filter diletakan di keranjang kopi di bagian bawah ruang pembuatan bir.Bubuk kopi diletakan di keranjang kopi dibagian bawah ruang oembuatan bir. Bubuk kopi
+                                        diletakan diruang pembuatan tempat air panas ditambahkan kemudian merendam / menyeduh kopi .
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="py-5">
+        <div class="container-lg pt-5 mx-auto">
+            <div class="row justify-content-around align-items-center">
+                <h2 class="text-center fw-bold parisianne-font text-white mb-0">Menu</h2>
+                <h3 class="text-center balsamiq-font text-white fw-bold fs-2 mb-1" style="letter-spacing: 5px;">Ruang Candu</h3>
+                <hr style="width: 400px; height: 3px; background-color: #fff; border-radius: 10px;">
+                <iframe id="frame-menu" name="display-frame" style="width: 90%;height: 400px; align-items: center; padding: 0px;" class="justify-content-around shadow" src="./pages/m1.html"></iframe>
+                    <div class="row container">
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m1.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/m2.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m2.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/m3.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m3.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/m4.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m4.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/img.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m5.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/m5.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m6.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/m2.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu-card rounded-3 text-center border-0 ">
+                                <a class="card-body form-check-label" href="pages/m7.html" target="display-frame">
+                                    <div class="img-menu d-flex justify-content-center align-items-center">
+                                        <img src="./assets/img/m6.png" alt="" class="card-img">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Galeri -->
+    <section id="galeri" class="py-5">
+       <div class="container-xl pt-5 mx-auto">
+           <div class="row justify-content-around align-items-center">
+            <h2 class="text-center fw-bold parisianne-font fc-utama mb-0">Galeri</h2>
+            <h3 class="text-center balsamiq-font fc-utama fw-bold fs-2 mb-1" style="letter-spacing: 5px;">Ruang Candu</h3>
+            <hr style="width: 400px; height: 3px; background-color: #970c0c; border-radius: 20px;">
+           </div>
+           <div class="row justify-content-around align-items-center">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/g1.png" class="d-block w-100" style="border-radius: 30px;" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/g2.png" class="d-block w-100" style="border-radius: 30px;" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/g3.png" class="d-block w-100" style="border-radius: 30px;" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/g4.png" class="d-block w-100" style="border-radius: 30px;" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/g5.png" class="d-block w-100" style="border-radius: 30px;" alt="...">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+           </div>
+       </div>
+    </section>
+
+    <!-- Ulasan -->
+    <section id="ulasan" class="py-5">
+        <div class="container pt-5">
+            <div class="row justify-content-around align-items-center">
+                <h2 class="text-center fw-bold parisianne-font text-white mb-0">Ulasan</h2>
+                <h3 class="text-center balsamiq-font text-white fw-bold fs-2 mb-1" style="letter-spacing: 5px;">Sobat Candu</h3>
+                <hr style="width: 400px; height: 3px; background-color: #fff; border-radius: 20px;">
+            </div>
+            <div class="row row-cols-2 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card shadow" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-3">
+                                <img src="./assets/img/profile1.png" class="rounded-circle" style="width: 120px;" alt="">
+                            </div>
+                            <div class="col-9">
+                                <h5 class="card-title fs-3">Udin Syamsudin</h5>
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <p class="card-text fs-6 fw-light">"Minumannya seger dan enak banget, waktu saya masukin ke dalam kulkas juga masih tetep dingin lo... Recomended banget deh. Buruan beli ya!"</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow" style="border-radius: 15px;">
+                      <div class="card-body">
+                          <div class="row justify-content-center align-items-center">
+                              <div class="col-3">
+                                  <img src="./assets/img/profile2.png" class="rounded-circle" style="width: 120px;" alt="">
+                              </div>
+                              <div class="col-9">
+                                  <h5 class="card-title fs-3">Neneng Marineng</h5>
+                                  <span>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                  </span>
+                                  <p class="card-text fs-6 fw-light">"To be honest, as a jaksel people ini minuman itu enak banget. Rasanya kek pengen batal puasa, dan waktu aku beli buat buka itu rasanya juga tetep sama"</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow" style="border-radius: 15px;">
+                      <div class="card-body">
+                          <div class="row justify-content-center align-items-center">
+                              <div class="col-3">
+                                  <img src="./assets/img/profile 3.png" class="rounded-circle" style="width: 120px;" alt="">
+                              </div>
+                              <div class="col-9">
+                                  <h5 class="card-title fs-3">Sarah Bihun</h5>
+                                  <span>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                  </span>
+                                  <p class="card-text fs-6 fw-light">"Kopinya enak banget, apalagi kalo minumnya ditemani sama makan mihun. Beuh, cocok banget deh. Cobain gih, keburu habis nanti!"</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow" style="border-radius: 15px;">
+                      <div class="card-body">
+                          <div class="row justify-content-center align-items-center">
+                              <div class="col-3">
+                                  <img src="./assets/img/profile4.png" class="rounded-circle" style="width: 120px;" alt="">
+                              </div>
+                              <div class="col-9">
+                                  <h5 class="card-title fs-3">Windah Basudara</h5>
+                                  <span>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                      <i class="fas fa-star"></i>
+                                  </span>
+                                  <p class="card-text fs-6 fw-light">"Minumannya enak banget buat nemenin saya streaming adik-adik, ayo dicoba kalau jauh beli lewat gojek atau grab bisa kok."</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="diskon" class="py-5">
+        <div class="container">
+            <div class="card card-diskon text-center shadow" style="border-radius: 15px;">
+                <div class="card-body">
+                    <div class="row justify-content-center align-items-center">
+                            <h5 class="card-title lobster-font fw-bold text-white fs-1">Diskon Terselubung</h5>
+                            <h1 class="text-white cabin-font" style="font-size: 120px;">50%</h1>
+                            <h4 class="cabin-font bg-white w-50 fw-bold p-2 mt-3 rounded-pill">Gunakan Kode : GGBGTYGY </h4>
+                            <p class="text-white fw-light">*Promo hanya bisa digunakan sampai dengan tanggal 08/04/2022</p>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="pt-5 pb-2">
+        <div class="container-xl pt-3">
+            <div class="row justify-content-around align-items-center">
+                <h2 class="text-center fw-bold parisianne-font text-white mb-0">Kontak Ruang Candu</h2>
+                <hr style="width: 400px; height: 3px; background-color: #fff; border-radius: 20px;">
+            </div>
+            <div class="row mt-2 justify-content-around align-items-center">
+                <div class="col-7 maps-container">
+                    <iframe class="shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7768738173145!2d112.46091951410246!3d-7.266214273409571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7803b8ca808f17%3A0x7ec9cba51feee5f4!2sKopi%20Ruang%20Candu!5e0!3m2!1sid!2sid!4v1649290781715!5m2!1sid!2sid" width="600" height="400" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-5 profile-container">
+                    <ul class="list-group list-group-flush" style="background-color: transparent;">
+                        <li class="list-group-item" style="background-color: transparent;">
+                            <div class="card border-0" style="background-color: transparent;">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="./assets/img/gojek.png" class="rounded-circle" style="width: 40px;" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 class="card-title text-white fs-6 mb-0 fw-bold balsamiq-font">Gojek</h5>
+                                        <p class="card-text text-white fs-4 fw-light cabin-font">Ruang Candu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: transparent;">
+                            <div class="card border-0" style="background-color: transparent;">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="./assets/img/grab.webp" class="rounded-circle" style="width: 40px;" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 class="card-title text-white fs-6 mb-0 fw-bold balsamiq-font">Grab</h5>
+                                        <p class="card-text text-white fs-4 fw-light cabin-font">Ruang Candu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: transparent;">
+                            <div class="card border-0" style="background-color: transparent;">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="./assets/img/shofood.png" class="rounded-circle" style="width: 40px;" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 class="card-title text-white fs-6 mb-0 fw-bold balsamiq-font">Shopee Food</h5>
+                                        <p class="card-text text-white fs-4 fw-light cabin-font">Ruang Candu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: transparent;">
+                            <div class="card border-0" style="background-color: transparent;">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="./assets/img/wa.png" class="rounded-circle" style="width: 40px;" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 class="card-title text-white fs-6 mb-0 fw-bold balsamiq-font">Whatsapp</h5>
+                                        <p class="card-text text-white fs-5 fw-light cabin-font">+62 829-2929-1010</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item" style="background-color: transparent;">
+                            <div class="card border-0" style="background-color: transparent;">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="./assets/img/ig.png" class="rounded-circle" style="width: 40px;" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                        <h5 class="card-title text-white fs-6 mb-0 fw-bold balsamiq-font">Instagram</h5>
+                                        <p class="card-text text-white fs-5 fw-light cabin-font">@kopiruangcandu</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-darker text-center p-2">
+        <p class="balsamiq-font fs-6 mb-0 text-white">Made With <i class="fas fa-heart"></i> By Abimanyu & Misbahudin</p>
+    </footer>
+
+    <!-- MODAL METODE -->
+    <div class="modal fade" id="chemexModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div class="card border-0" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <img src="./assets/img/1.png" class="rounded-circle d-block mx-auto" style="width: 120px;" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="card-title balsamiq-font fs-1">Chemex</h5>
+                                <p class="card-text fs-6 cabin-font fw-light">Chemex Adalah labu kaca yang dirancang dengan indah dan elegan yang ditemukan pada tahun 1941 oleh Dr.Peter Schlumnohm
+                                    filter ini menggunakan kertas khusus chemex yang 20-30% lebih berat dari filter lainya.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="v60" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div class="card border-0" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <img src="./assets/img/1.png" class="rounded-circle d-block mx-auto" style="width: 120px;" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="card-title balsamiq-font fs-1">V60</h5>
+                                <p class="card-text fs-6 cabin-font fw-light">Teknik seduh kopi V60 asal mulanya
+                                    karena terciptanya sebuah alat seduh atau yang populer dengan sebutan dripper pada tahun 2004
+                                    .pencipta dari alat tersebut merupakan perusahaan asal jepang ang bernama hario. Nama V60 sendiri dipilih karena bwntuknya 
+                                    menyerupai huruf "V" dengan sudut 60 Derajat.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="frenchPress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div class="card border-0" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <img src="./assets/img/3.png" class="rounded-circle d-block mx-auto" style="width: 120px;" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="card-title balsamiq-font fs-1">French Press</h5>
+                                <p class="card-text fs-6 cabin-font fw-light">Metode French Press, ditemukan pasa yahun 1929, secara luas dianggap sebagi metode terbaik dan termudah untuk menyeduh kopi yang unggul dan konsisten.Ini bisa dibilang mengestrak rasa 
+                                    yang unggul dan berkualitas.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mokapot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div class="card border-0" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <img src="./assets/img/1.png" class="rounded-circle d-block mx-auto" style="width: 120px;" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="card-title balsamiq-font fs-1">Mokapot</h5>
+                                <p class="card-text fs-6 cabin-font fw-light">awalnya dipatenkan pada tahun 1933 oleh Alfonso Bialetti, 
+                                    pembuatnya kopi gaya stovetop menggunakan tekanan uap dari air matang di bagian bawah untuk melewati bubuk kopi di ruang tengah panci
+                                    Kopi yang diseduh kemudian diletakan diruang yang lebih tinggi.</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="aeropress" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+                <div class="card border-0" style="border-radius: 15px;">
+                    <div class="card-body">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-4">
+                                <img src="./assets/img/1.png" class="rounded-circle d-block mx-auto" style="width: 120px;" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h5 class="card-title balsamiq-font fs-1">Aeropress</h5>
+                                <p class="card-text fs-6 cabin-font fw-light">Relatif baru, pembuat Aerobie Frisbee (Alan Adler)
+                                    menciptakan dan meluncrukan AeroPress pada tahun 2005. AeroPress
+                                    Terbuat dari plastik dan tersedian dalam 3 bagian.Filter diletakan di keranjang kopi di bagian bawah ruang pembuatan bir.Bubuk kopi diletakan di keranjang kopi dibagian bawah ruang oembuatan bir. Bubuk kopi
+                                    diletakan diruang pembuatan tempat air panas ditambahkan kemudian merendam / menyeduh kopi .</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/fef563f101.js" crossorigin="anonymous"></script>
+    </body>
+</html>

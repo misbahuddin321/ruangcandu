@@ -1,0 +1,192 @@
+/* BANNER  */
+#banner{   
+    height: 100vh;
+    position: relative;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px 100px 0px;
+    background: linear-gradient(-45deg, #BE7656, #4B1F0E);
+}
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    font-size: 25px !important;
+}
+.navbar-kita{
+    width: 95%;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+.nav-link.active{
+    font-weight: 700;
+}
+.img-banner{
+    width: 450px;
+}
+.contact-btn{
+    background-color: transparent;
+    color: #4B1F0E !important;
+    border: 2px solid #4B1F0E;
+    width: 120px;
+    height: 40px;
+}
+.contact-btn:hover{
+    background-color: #4B1F0E;
+    color: white !important;
+}
+.banner-title{
+    font-size: 60px;
+}
+.text-container{
+    width: 60%;
+}
+.img-container{
+    width: 40%;
+}
+.button-order{
+    padding: 10px 24px;
+    border-radius: 8px;
+    background: #EFC3A4;
+    border: none;
+    transition: 0,4ms;
+    color: #fff;
+}
+.button-order:hover{
+    color: #BE7656;
+}
+
+/* Metode */
+#metode{
+    height: auto;
+    padding: 50px 30px;
+    border-top-left-radius: 60px;
+    border-end-end-radius: 60px;
+    margin-top: -50px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card-img{
+    max-width: 40px;
+}
+
+.img-bg{
+    background: #4b1f0e17;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-desc{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.metode-card{
+    color: #4B1F0E;
+    transition: ease 0.5s;
+}
+.metode-card:hover{
+    background-color: #4B1F0E;
+    color: white;
+    border-radius: 20px;
+}
+.metode-card:hover .img-bg{
+    background-color: rgba(255, 255, 255, 0.123);
+}
+/* Menu */
+#menu{
+    margin-top: -50px;
+    background: linear-gradient(45deg, #BE7656, #4B1F0E);
+}
+.img-menu{
+    display: block;
+    margin: 0 auto;
+}
+#frame-menu{
+    height: 90px;
+    background: transparent;
+    display: block;
+    margin-bottom: 40px;
+    justify-items: center;
+    border-radius: 10px;
+    padding-inline-start: 100px;
+    transition: ease 1s;
+}
+.menu-card{
+    background-color: rgba(255, 255, 255, 0.205) !important;
+}
+.menu-card:hover{
+    background-color: #BE7656;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* Ulasan Section */
+#ulasan{
+    background: linear-gradient(45deg, #BE7656, #4B1F0E);
+}
+
+/* Diskon Terselubung */
+#diskon{
+    background: #fff;
+}
+.card-diskon{
+    background: linear-gradient(45deg, #aa8372, #4B1F0E);
+}
+
+/* Kontak Session */
+#kontak{
+    background: linear-gradient(45deg, #BE7656, #4B1F0E);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Background Color */
+.bg-utama{
+    background-color: #4B1F0E;
+}
+.bg-sekon{
+    background-color: #BE7656;
+}
+.bg-third{
+    background-color: #EFC3A4;
+}
+.bg-darker{
+    background-color: #0E0504;
+}
+
+/* Font Color */
+.fc-utama{
+    color: #4B1F0E;
+}
+.fc-sekon{
+    color: #BE7656;
+}
+.fc-third{
+    color: #EFC3A4;
+}
+.fc-darker{
+    color: #0E0504;
+}
+
+/* Choosed Font */
+.lobster-font{
+    font-family: 'Lobster', cursive;
+}
+.cabin-font{
+    font-family: 'Cabin', sans-serif;
+}
+.balsamiq-font{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.parisianne-font{
+    font-family: 'Parisienne', cursive;
+}
